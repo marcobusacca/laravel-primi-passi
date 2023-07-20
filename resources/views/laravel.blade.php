@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>HOMEPAGE</title>
+        <title>LARAVEL</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -26,15 +26,15 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link text-underline text-white" aria-current="page" href="/">
-                                    <u>HOME</u>
+                                <a class="nav-link text-underline text-white" aria-current="page" href="/">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="php">PHP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="/laravel">
+                                    <u>LARAVEL</u>
                                 </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/php">PHP</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/laravel">LARAVEL</a>
                             </li>
                         </ul>
                     </div>
@@ -47,15 +47,16 @@
                     <div class="col-12">
                         <div class="card text-center border-dark">
                             <div class="card-header p-3">
-                                <h1>{{ $message }}</h1>
+                                <h1>LARAVEL</h1>
                             </div>
                             <div class="card-body p-5">
-                                <h3>
-                                    <strong>Nome:</strong><span> {{ $name }} </span>
-                                </h3>
-                                <h3>
-                                    <strong>Cognome:</strong><span> {{ $surname }} </span>
-                                </h3>
+                                <p class="text-start">
+                                    Laravel è un framework open source di tipo MVC scritto in PHP per lo sviluppo di applicazioni web, creato nel 2011 da Taylor Otwell come derivazione di Symfony. <br><br>
+
+                                    Distribuito con licenza MIT, mantiene tutto il codice disponibile su GitHub e viene indicato, in base al punteggio GitHub e StackOverflow, come il framework PHP più popolare, seguito da Symfony, CodeIgniter e altri; ad agosto 2014 risulta essere il progetto PHP più seguito su GitHub. <br><br>
+
+                                    Alcune delle caratteristiche sono: un sistema di gestione dei pacchetti modulare con un gestore delle dipendenze dedicato, differenti modalità di accesso ai database relazionali, strumenti che aiutano la distribuzione e la manutenzione dell'applicazione, e la sua disposizione al Syntactic sugar.
+                                </p>
                             </div>
                         </div>
                     </div>

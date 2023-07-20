@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>HOMEPAGE</title>
+        <title>PHP</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -26,12 +26,12 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link text-underline text-white" aria-current="page" href="/">
-                                    <u>HOME</u>
-                                </a>
+                                <a class="nav-link text-underline text-white" aria-current="page" href="/">HOME</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="/php">PHP</a>
+                                <a class="nav-link text-white" href="/php">
+                                    <u>PHP</u>
+                                </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="/laravel">LARAVEL</a>
@@ -47,15 +47,16 @@
                     <div class="col-12">
                         <div class="card text-center border-dark">
                             <div class="card-header p-3">
-                                <h1>{{ $message }}</h1>
+                                <h1>PHP</h1>
                             </div>
                             <div class="card-body p-5">
-                                <h3>
-                                    <strong>Nome:</strong><span> {{ $name }} </span>
-                                </h3>
-                                <h3>
-                                    <strong>Cognome:</strong><span> {{ $surname }} </span>
-                                </h3>
+                                <p class="text-start">
+                                    PHP (acronimo ricorsivo di "PHP: Hypertext Preprocessor", preprocessore di ipertesti; originariamente acronimo di "Personal Home Page") è un linguaggio di scripting interpretato, originariamente concepito per la programmazione di pagine web dinamiche. <br><br>
+                                    L'interprete PHP è un software libero distribuito sotto la PHP License. <br><br>
+                                    Attualmente è principalmente utilizzato per sviluppare applicazioni web lato server, ma può essere usato anche per scrivere script a riga di comando o applicazioni stand-alone con interfaccia grafica. <br><br>
+                                    Un esempio di software scritto in PHP è MediaWiki, su cui si basano i progetti wiki della Wikimedia Foundation come Wikipedia. <br><br>
+                                    Grazie soprattutto alla diffusione di Wordpress (CMS scritto in PHP), secondo le statistiche, è il linguaggio lato server più usato al mondo.
+                                </p>
                             </div>
                         </div>
                     </div>

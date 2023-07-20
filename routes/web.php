@@ -22,3 +22,11 @@ Route::get('/', function () {
 
     return view('home', $data);
 });
+
+Route::get('/php', function () {
+    return view('php');
+});
+
+Route::get('/laravel', function () {
+    return view('laravel');
+});
